@@ -1,8 +1,65 @@
 /* -------------------- CSS BY NAME -------------------------------------- */
+
+
+
 /* -------------------- IMPORTED FONTS -------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
 /*-------------------- CSS REST ---------------------------------------------------*/
+
+
+
 /* -------------------- ROOT VARIABLES --------------------------------------- */
+
+H1, H2 {
+    font-family: Kavoon;
+}
+
+P, H3, H4 {
+    font-family: Inter;
+}
+
+H1 {
+    font-size: 3em;
+}
+
+NAV H2 {
+    font-size: 1.5em;
+}
+
+H2 {
+    font-size: 2em;
+}
+
+H3 {
+    font-size: 1.5em;
+}
+
+H4 {
+    font-size: 1.15em;
+}
+
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+
+@media screen and (min-width: 450px){
+
+}
+
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+
+@media screen and (min-width: 620px){
+    
+}
+
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
+
+@media screen and (min-width: 950px){
+    
+}
+
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+
+@media screen and (min-width: 1280px){
+    
+}
