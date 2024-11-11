@@ -1,23 +1,16 @@
-/* -------------------- CSS BY NAME -------------------------------------- */
-
-
-
 /* -------------------- IMPORTED FONTS -------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /*-------------------- CSS REST ---------------------------------------------------*/
 
-
-
-/* -------------------- ROOT VARIABLES --------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
 
 H1, H2 {
     font-family: Kavoon;
-}
-
-P, H3, H4 {
-    font-family: Inter;
 }
 
 H1 {
@@ -38,6 +31,12 @@ H3 {
 
 H4 {
     font-size: 1.15em;
+}
+
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+
+:root {
+    font-family: Inter;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
