@@ -19,13 +19,18 @@ H1 {
     text-align: center;
 }
 
-header, .unlock {
+h1, .unlock {
     color: #ffffff;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 header {
     background-color: #6B8FE7;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
 }
 
 .unlock {
