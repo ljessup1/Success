@@ -11,10 +11,12 @@ License: none (public domain)
 
 H1, H2 {
     font-family: Kavoon;
+    color: #ffffff;
 }
 
 H1 {
     font-size: 3em;
+    text-align: center;
 }
 
 NAV H2 {
