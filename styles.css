@@ -32,6 +32,12 @@ header {
     padding-right: 100px;
     position: relative;
 }
+.grid-container {
+    column-gap: 50px;
+    row-gap: 50px;
+    gap: 50px 100px;
+    padding: 25px;
+}
 
 .unlock {
     background-color: #D9526F;
@@ -69,6 +75,35 @@ div {
     background-color: #ffffff;
 }
 
+.choose {
+    background-color: #D9526F;
+}
+
+table, th, td {
+    border: 1px solid #E9BB57;
+}
+
+th {
+    background-color: #E9BB57;
+    color: #1E1E1E;
+    padding: 25px;
+}
+
+td {
+    background-color: #ffffff;
+    color: #1E1E1E;
+    padding: 25px;
+}
+
+.step {
+    color:#ffffff;
+    background-color: #D9526F;
+}
+
+footer {
+    background-color: #6B8FE7;
+}
+
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 
 :root {
@@ -97,5 +132,81 @@ div {
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
 @media screen and (min-width: 1280px){
-    
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .group {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .workshops {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .online {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .approach {
+        grid-column: 1;
+        grid-row: 1;
+        background-color: #4CA7C0;
+        color:#1E1E1E;
+        height: 50px;
+        width: 100px;
+        padding: 25px;
+        border-radius: 20%;
+    }
+
+    .proven {
+        grid-column: 2;
+        grid-row: 1;
+        background-color: #484FB7;
+        color:#1E1E1E;
+        height: 50px;
+        width: 100px;
+        padding: 25px;
+        border-radius: 20%;
+    }
+
+    .supportive {
+        grid-column: 3;
+        grid-row: 1;
+        background-color: #E9BB57;
+        color:#1E1E1E;
+        height: 50px;
+        width: 100px;
+        padding: 25px;
+        border-radius: 20%;
+    }
+
+    .flexible {
+        grid-column: 4;
+        grid-row: 1;
+        background-color: #ffffff;
+        color:#1E1E1E;
+        height: 50px;
+        width: 100px;
+        padding: 25px;
+        border-radius: 20%;
+    }
+    .onecoach {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .groupcoach {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .copy {
+        grid-column: 8;
+    }
+    .terms {
+        grid-column: 16;
+    }
 }
